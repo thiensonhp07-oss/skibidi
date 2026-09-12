@@ -1,0 +1,63 @@
+import { ColorPreset } from '../types';
+
+export const PRESETS: ColorPreset[] = [
+  {
+    id: 'cyberpunk',
+    name: 'Cyberpunk Neon',
+    description: 'Electric magenta, neon lime, and deep synth indigo',
+    tubes: ['#f967fb', '#53bc28', '#6958d5'],
+    lights: ['#83f36e', '#fe8a2e', '#ff008a', '#60aed5'],
+    intensity: 220,
+    badge: 'Original',
+  },
+  {
+    id: 'synthwave',
+    name: 'Sunset Synthwave',
+    description: 'Hot sunset pink, retro violet, and radiant amber',
+    tubes: ['#ff007f', '#7928ca', '#ff9900'],
+    lights: ['#ff0055', '#7928ca', '#00dfd8', '#ffaa00'],
+    intensity: 240,
+    badge: 'Popular',
+  },
+  {
+    id: 'bioluminescence',
+    name: 'Deep Oceanic',
+    description: 'Abyssal cyan, bioluminescent aqua, and seafoam green',
+    tubes: ['#00f2fe', '#4facfe', '#00ffd5'],
+    lights: ['#00c6ff', '#0072ff', '#38ef7d', '#11998e'],
+    intensity: 210,
+    badge: 'Calm',
+  },
+  {
+    id: 'acid-matrix',
+    name: 'Acid Matrix',
+    description: 'Radioactive green, electric chartreuse, and toxic glow',
+    tubes: ['#39ff14', '#ccff00', '#00ff88'],
+    lights: ['#00ff66', '#aaff00', '#00ffee', '#76ff03'],
+    intensity: 250,
+  },
+  {
+    id: 'solar-flare',
+    name: 'Solar Flare',
+    description: 'Volcanic magma orange, crimson ruby, and golden corona',
+    tubes: ['#ff4500', '#ff003b', '#ffb703'],
+    lights: ['#ff007f', '#ff8c00', '#ffd700', '#ff1493'],
+    intensity: 260,
+  },
+  {
+    id: 'aurora-borealis',
+    name: 'Northern Lights',
+    description: 'Shifting glacial emerald, cosmic violet, and ice blue',
+    tubes: ['#05ffa1', '#b967ff', '#00e5ff'],
+    lights: ['#00ffcc', '#bf55ec', '#22a7f0', '#00e676'],
+    intensity: 200,
+  },
+  {
+    id: 'monochrome-luxe',
+    name: 'Hyper Chrome',
+    description: 'Platinum white, sleek silver sheen, and stark minimalist glow',
+    tubes: ['#ffffff', '#a8b2d1', '#e2e8f0'],
+    lights: ['#ffffff', '#94a3b8', '#cbd5e1', '#f8fafc'],
+    intensity: 180,
+  },
+];

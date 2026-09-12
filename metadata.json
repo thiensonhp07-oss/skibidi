@@ -1,0 +1,6 @@
+{
+  "name": "BINGO & BI 3D Interactive",
+  "description": "High-performance interactive 3D neon tubes cursor background with dynamic color schemes and WebGL lighting effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
